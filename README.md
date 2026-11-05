@@ -46,6 +46,18 @@ source CDC ─▶ bronze (idempotent, typed) ─▶ silver (MERGE + SCD2, PHI to
                                             └──────────────── orchestrated by Airflow, tested in GitHub Actions ────────────────┘
 ```
 
+- CDC with out-of-order and replayed events, per-batch SCD Type 2, idempotent reruns
+- HIPAA Safe Harbor de-identification: salted member tokens, masked sparse ZIP3 areas, 90+ ages hidden
+- 12-check quality gate before gold, plus 21 dbt tests and 34 unit tests on every pull request
+
+### 📂 More projects
+
+| Project | What it does | Built with |
+|---|---|---|
+| [data-platform-knowledge-assistant](https://github.com/vivekdatla96/data-platform-knowledge-assistant) | RAG assistant for ETL mappings, warehouse metadata, lineage and runbooks, with cited answers and abstention on weak evidence | Python, hybrid retrieval, AWS Bedrock |
+| [Face_detection](https://github.com/vivekdatla96/Face_detection) | Face detection library and CLI for images and webcam, with JSON output and packaging checks in CI | Python, OpenCV |
+| [Android apps](https://github.com/vivekdatla96?tab=repositories&language=java) | [C-Quiz](https://github.com/vivekdatla96/C-Quiz), [Who Wants to Be a Millionaire](https://github.com/vivekdatla96/WhoWantsToBeAMillionaire), [GPA Calculator](https://github.com/vivekdatla96/gpa_datlav2_calculator), [login_d](https://github.com/vivekdatla96/login_d), each with a CI build | Java, Android |
+
 ### 🧰 Tech stack
 
 **☁️ Cloud**<br/>
@@ -94,7 +106,7 @@ source CDC ─▶ bronze (idempotent, typed) ─▶ silver (MERGE + SCD2, PHI to
 ### 🔭 Right now
 
 - 🏗️ Adding a Kafka (Debezium) source and Iceberg tables to the claims lakehouse
-- 🤖 Building RAG over warehouse metadata: ask questions about a dbt project in plain English
+- 🤖 Building RAG over warehouse metadata ([data-platform-knowledge-assistant](https://github.com/vivekdatla96/data-platform-knowledge-assistant)): ask questions about a dbt project in plain English
 - 📚 Going deeper on Snowflake cost optimization and dbt semantic layer
 
 ---
